@@ -12,10 +12,6 @@ path = joinpath(dirname(pathof(Plinf)), "..", "domains", "testworld")
 domain = load_domain(joinpath(path, "domain.pddl"))
 problem = load_problem(joinpath(path, "problem-5.pddl"))
 
-#println(path)
-#println(domain)
-println(pathof(Plinf))
-
 # Initialize state, set goal position
 state = initstate(domain, problem)
 goal = [problem.goal]

@@ -18,7 +18,7 @@
     (wall 7 2) (wall 7 3) (wall 7 4) (wall 7 5) (wall 7 6)
     (wall 2 4) (wall 2 5) (wall 2 6) (wall 2 7)
     (wall 2 6) (wall 3 6) (wall 4 6) (wall 5 6) (wall 6 6) (wall 7 6)
-    (wall 4 8) (wall 6 7)
+    (wall 6 7)
   )
   (:goal (and (= xpos 7) (= ypos 8)))
 )
