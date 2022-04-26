@@ -8,7 +8,7 @@ include("render.jl")
 #--- Initial Setup ---#
 
 # Load domain and problem
-path = joinpath(dirname(pathof(Plinf)), "..", "domains", "gridworld")
+path = joinpath(dirname(pathof(Plinf)), "..", "domains", "testworld")
 domain = load_domain(joinpath(path, "domain.pddl"))
 problem = load_problem(joinpath(path, "problem-3.pddl"))
 
